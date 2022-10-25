@@ -1,0 +1,11 @@
+{
+  "name":"Test Integration",
+  "database":{
+    "host":"localhost",
+    "username":"integration_ms",
+    "password":"secret",
+    "name":"integration-ms-db",
+    "ssl":false,
+    "port":5432
+  }
+}

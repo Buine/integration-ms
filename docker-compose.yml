@@ -1,0 +1,12 @@
+version: '3.6'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=integration-ms-db
+      - POSTGRES_USER=integration_ms
+      - POSTGRES_PASSWORD=secret
+
+    ports:
+      - "5433:5432"

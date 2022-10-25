@@ -1,0 +1,6 @@
+{
+  "code": "CLIENT_EXCEPTION",
+  "messages": [
+    "Error calling RunnerClient#generateSchema(SchemaRequest,UUID) with status 400"
+  ]
+}
